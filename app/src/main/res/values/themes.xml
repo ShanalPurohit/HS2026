@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:tools="http://schemas.android.com/tools">
+
+    <style name="Theme.HindiStories" parent="Theme.Material3.Light.NoActionBar">
+        <item name="colorPrimary">@color/accent</item>
+        <item name="android:windowBackground">@color/paper</item>
+        <item name="bottomSheetDialogTheme">@style/Theme.HindiStories.BottomSheet</item>
+
+        <!--
+            Transparent bars so the cover artwork shows through on Android 14
+            and below. On Android 15 and above these are ignored and the bars
+            are always transparent. The icon colour is set per screen in code,
+            because the reader is dark at the top and the grid is light.
+        -->
+        <item name="android:statusBarColor" tools:targetApi="21">@android:color/transparent</item>
+        <item name="android:navigationBarColor" tools:targetApi="21">@android:color/transparent</item>
+
+        <!-- Stop the system painting a grey scrim over our artwork. -->
+        <item name="android:enforceStatusBarContrast" tools:targetApi="29">false</item>
+        <item name="android:enforceNavigationBarContrast" tools:targetApi="29">false</item>
+    </style>
+
+    <!-- Transparent so the rounded top corners of the sheet show through. -->
+    <style name="Theme.HindiStories.BottomSheet" parent="Theme.Material3.Light.BottomSheetDialog">
+        <item name="bottomSheetStyle">@style/HindiStories.BottomSheetStyle</item>
+    </style>
+
+    <style name="HindiStories.BottomSheetStyle" parent="Widget.Material3.BottomSheet">
+        <item name="android:background">@android:color/transparent</item>
+        <item name="backgroundTint">@android:color/transparent</item>
+        <!-- Material lifts the sheet above the navigation bar for us. -->
+        <item name="paddingBottomSystemWindowInsets">true</item>
+    </style>
+
+    <!--
+        Text styles.
+
+        fontFamily is "serif" and "sans-serif" so the project builds with no
+        extra files. After you drop the two Google Fonts into res/font, change
+        the two lines marked below to @font/tiro_devanagari_hindi and
+        @font/mukta. Nothing else needs to change.
+    -->
+
+    <!-- Story titles and headings. Change to @font/tiro_devanagari_hindi -->
+    <style name="Text.Display" parent="">
+        <item name="android:fontFamily">serif</item>
+        <item name="android:textColor">@color/ink</item>
+        <item name="android:lineSpacingMultiplier">1.35</item>
+    </style>
+
+    <!-- Story body. Change to @font/tiro_devanagari_hindi -->
+    <style name="Text.Body" parent="">
+        <item name="android:fontFamily">serif</item>
+        <item name="android:textColor">@color/body_ink</item>
+        <item name="android:textSize">17sp</item>
+        <item name="android:lineSpacingMultiplier">1.95</item>
+    </style>
+
+    <!-- Small labels. Change to @font/mukta -->
+    <style name="Text.Muted" parent="">
+        <item name="android:fontFamily">sans-serif</item>
+        <item name="android:textColor">@color/muted</item>
+        <item name="android:textSize">14sp</item>
+        <item name="android:lineSpacingMultiplier">1.45</item>
+    </style>
+
+    <style name="Text.Accent" parent="Text.Muted">
+        <item name="android:textColor">@color/accent</item>
+    </style>
+
+</resources>

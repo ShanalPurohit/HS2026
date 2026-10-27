@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!--
+        The visible height of the reader cover artwork. ReaderActivity adds the
+        status bar height on top of this at runtime, so the art stays this tall
+        no matter how deep the status bar is.
+    -->
+    <dimen name="reader_cover_height">260dp</dimen>
+
+    <!--
+        How far the rounded reading sheet lifts over the bottom of the cover.
+        Negative on purpose: the artwork runs under the rounded corners instead
+        of stopping at a hard edge.
+    -->
+    <dimen name="reader_sheet_overlap">-28dp</dimen>
+</resources>

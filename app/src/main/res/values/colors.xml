@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- Surfaces -->
+    <color name="paper">#FDF7F4</color>
+    <color name="card">#FFFFFF</color>
+    <color name="hairline">#F2E2E4</color>
+    <color name="paper_edge">#E3CBD2</color>
+    <color name="preview_bg">#FDF7F4</color>
+
+    <!-- Text -->
+    <color name="ink">#2A1A22</color>
+    <color name="body_ink">#30212A</color>
+    <color name="muted">#6B5560</color>
+
+    <!-- Accent -->
+    <color name="accent">#A6305C</color>
+    <color name="accent_soft">#E8D2D7</color>
+
+    <!-- Illustration background, used behind the reader cover -->
+    <color name="night">#3B2440</color>
+
+    <color name="button_scrim">#80160B19</color>
+</resources>

@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+    A dark fade at the top of the reader cover.
+
+    The back and font buttons are white while they sit on the artwork. Covers
+    are not all dark at the top, so without this fade those buttons disappear
+    against a pale one. ReaderActivity fades this out as the header collapses,
+    because on paper the buttons turn to ink and no longer need it.
+-->
+<shape xmlns:android="http://schemas.android.com/apk/res/android"
+    android:shape="rectangle">
+    <gradient
+        android:angle="270"
+        android:startColor="#73000000"
+        android:centerColor="#26000000"
+        android:endColor="#00000000"
+        android:type="linear" />
+</shape>

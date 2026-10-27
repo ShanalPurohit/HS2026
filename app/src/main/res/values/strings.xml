@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">हिंदी कहानियाँ</string>
+    <string name="app_subtitle">हिंदी कहानियाँ, धीरे-धीरे पढ़ने के लिए</string>
+
+    <string name="minutes_format">%1$d मिनट</string>
+
+    <string name="font_size_title">अक्षर का आकार</string>
+    <string name="font_size_preview">पानी में चाँद हिल रहा था।</string>
+
+    <string name="action_back">वापस जाएँ</string>
+    <string name="action_font_size">अक्षर का आकार बदलें</string>
+    <string name="action_smaller">अक्षर छोटे करें</string>
+    <string name="action_bigger">अक्षर बड़े करें</string>
+    <string name="action_done">ठीक है</string>
+
+    <string name="action_share">कहानी साझा करें</string>
+    <string name="share_no_app">साझा करने के लिए कोई ऐप नहीं मिला</string>
+
+    <!--
+        What gets sent. The story text is deliberately not included: a teaser
+        and a link is what makes someone install the app, a pasted story is not.
+        1 = story title, 2 = summary, 3 = app name, 4 = store link.
+    -->
+    <string name="share_story_format">%1$s\n\n%2$s\n\nपूरी कहानी “%3$s” ऐप पर पढ़ें:\n%4$s</string>
+
+    <!-- 1 = app name, 2 = store link. -->
+    <string name="share_app_format">“%1$s”, Read Hindi stories without internet:\n%2$s</string>
+
+    <!--
+        CHANGE THIS if the applicationId in build.gradle.kts ever changes, and
+        note the page only exists once the app is published on Play.
+    -->
+    <string name="share_app_url" translatable="false">https://play.google.com/store/apps/details?id=com.avinashgiri.hindistories</string>
+
+    <!-- Settings -->
+    <string name="settings_title">Settings</string>
+    <string name="settings_privacy">Privacy Policy</string>
+    <string name="settings_privacy_hint">We do not collect any information about you</string>
+    <string name="settings_share">Share App</string>
+    <string name="settings_share_hint">Tell your friends about these stories.</string>
+    <string name="settings_version">Version</string>
+
+    <!--
+        The policy. Every line here matches what the app actually does: there
+        is no INTERNET permission in the manifest, nothing is sent anywhere,
+        and the only thing written to storage is the chosen font size.
+        If that ever changes, change this text in the same commit.
+
+        PUT YOUR OWN EMAIL IN THE LAST LINE before you publish.
+    -->
+    <string name="privacy_policy_body">यह ऐप आपकी कोई भी निजी जानकारी इकट्ठा नहीं करता।\n\nऐप इंटरनेट से नहीं जुड़ता। सभी कहानियाँ पहले से आपके फ़ोन में मौजूद हैं, इसलिए पढ़ने के लिए नेटवर्क की ज़रूरत नहीं पड़ती।\n\nऐप सिर्फ़ एक चीज़ याद रखता है: अक्षर का वह आकार जो आपने चुना है। यह आपके फ़ोन में ही रहता है और कहीं नहीं भेजा जाता।\n\nहम आपका नाम, ईमेल, फ़ोन नंबर, जगह या कोई और पहचान नहीं लेते। कोई विज्ञापन नहीं, कोई ट्रैकिंग नहीं, कोई एनालिटिक्स नहीं।\n\nजब आप कोई कहानी साझा करते हैं, तो ऐप सिर्फ़ उस कहानी का नाम, एक पंक्ति का परिचय और ऐप का लिंक दूसरे ऐप को भेज देता है। उसके बाद क्या होता है, यह उस ऐप की नीति पर निर्भर करता है।\n\nऐप हटाने पर यह सारी जानकारी भी मिट जाती है।\n\nकोई सवाल हो तो संपर्क करें: YOUR_EMAIL@EXAMPLE.COM</string>
+
+    <!-- Glyphs shown on the size buttons. Not translated. -->
+    <string name="glyph_font_size" translatable="false">अ</string>
+    <string name="glyph_smaller" translatable="false">अ −</string>
+    <string name="glyph_bigger" translatable="false">अ +</string>
+</resources>

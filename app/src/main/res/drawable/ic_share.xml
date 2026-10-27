@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+    Stroked to match ic_arrow_back, and with no android:tint for the same
+    reason: ReaderActivity blends this icon from white to ink as the cover
+    collapses, and a baked in tint would fight that.
+-->
+<vector xmlns:android="http://schemas.android.com/apk/res/android"
+    android:width="24dp"
+    android:height="24dp"
+    android:viewportWidth="24"
+    android:viewportHeight="24">
+
+    <path
+        android:pathData="M3.5,12 A2.5,2.5 0 1 0 8.5,12 A2.5,2.5 0 1 0 3.5,12 Z"
+        android:strokeColor="#FFFFFF"
+        android:strokeWidth="2"
+        android:strokeLineCap="round"
+        android:strokeLineJoin="round" />
+
+    <path
+        android:pathData="M14.5,6 A2.5,2.5 0 1 0 19.5,6 A2.5,2.5 0 1 0 14.5,6 Z"
+        android:strokeColor="#FFFFFF"
+        android:strokeWidth="2"
+        android:strokeLineCap="round"
+        android:strokeLineJoin="round" />
+
+    <path
+        android:pathData="M14.5,18 A2.5,2.5 0 1 0 19.5,18 A2.5,2.5 0 1 0 14.5,18 Z"
+        android:strokeColor="#FFFFFF"
+        android:strokeWidth="2"
+        android:strokeLineCap="round"
+        android:strokeLineJoin="round" />
+
+    <path
+        android:pathData="M8.2,10.8 L14.8,7.2"
+        android:strokeColor="#FFFFFF"
+        android:strokeWidth="2"
+        android:strokeLineCap="round" />
+
+    <path
+        android:pathData="M8.2,13.2 L14.8,16.8"
+        android:strokeColor="#FFFFFF"
+        android:strokeWidth="2"
+        android:strokeLineCap="round" />
+
+</vector>

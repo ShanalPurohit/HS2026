@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<TextView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/paragraph"
+    style="@style/Text.Body"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:paddingBottom="18dp"
+    tools:text="उस रात चाँद पूरा नहीं था, फिर भी गाँव के तालाब पर इतनी रोशनी थी कि हर चेहरा साफ़ दिख रहा था।" />
