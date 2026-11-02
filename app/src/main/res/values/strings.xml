@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
-    <string name="app_name">हिंदी कहानियाँ</string>
+    <string name="app_name">Hindi Stories</string>
     <string name="app_subtitle">हिंदी कहानियाँ, धीरे-धीरे पढ़ने के लिए</string>
 
     <string name="minutes_format">%1$d मिनट</string>
